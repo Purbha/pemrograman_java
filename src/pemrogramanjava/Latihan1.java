@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Irsyad
+ */
+package pemrogramanjava;
 public class Latihan1 extends javax.swing.JFrame {
 
     public Latihan1() {
