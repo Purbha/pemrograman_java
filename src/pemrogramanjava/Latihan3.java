@@ -51,6 +51,17 @@ public class Latihan3 extends javax.swing.JFrame {
 
         jLabel2.setText("Nama Anda Adalah");
 
+        txtnama2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtnama2ActionPerformed(evt);
+            }
+        });
+        txtnama2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtnama2KeyPressed(evt);
+            }
+        });
+
         jLabel3.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         jLabel3.setText("Event KeyPress");
 
@@ -72,7 +83,7 @@ public class Latihan3 extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(130, 130, 130)
                         .addComponent(jLabel3)))
-                .addContainerGap(143, Short.MAX_VALUE))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -107,6 +118,14 @@ public class Latihan3 extends javax.swing.JFrame {
     private void txtnama1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnama1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtnama1ActionPerformed
+
+    private void txtnama2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnama2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnama2ActionPerformed
+
+    private void txtnama2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnama2KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnama2KeyPressed
 
     /**
      * @param args the command line arguments

@@ -124,6 +124,11 @@ public class Latihan11 extends javax.swing.JFrame {
 
     private void jList_KotaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jList_KotaMouseClicked
         // TODO add your handling code here:
+        
+        if (Mdl.isEmpty()) {
+            return;
+        }
+        
         jTextField_Kota.setText(jList_Kota.getSelectedValue().toString());
     }//GEN-LAST:event_jList_KotaMouseClicked
 
